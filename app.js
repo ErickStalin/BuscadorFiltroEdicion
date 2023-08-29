@@ -7,10 +7,10 @@ app.use(bodyParser.json());
 app.use(express.static("public"));
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "Erick",
-  password: "0986167219",
-  database: "konect",
+  host: "XXXXXXX",
+  user: "XXXXXXX",
+  password: "XXXXXXXX",
+  database: "XXXXXXXXX",
 });
 
 db.connect((err) => {
